@@ -9,41 +9,33 @@ export const services = [
   },
   {
     id: 2,
-    title: "Store App Development (React Native)",
+    title: "App Development (Cross-Platform)",
     description:
-      "Developed a cross-platform Store App using React Native CLI with product listing, cart functionality, and smooth mobile navigation.",
-    tech: ["React Native", "React Native CLI", "JavaScript"],
-    icon: "🛒",
-  },
-  {
-    id: 3,
-    title: "Social Media Platform App",
-    description:
-      "Built a mobile social media application using React Native and Expo CLI with user profiles, post feeds, and interactive UI components.",
-    tech: ["React Native", "Expo CLI", "JavaScript"],
+      "I develop cross-platform mobile applications using React Native, building scalable, high-performance apps with smooth navigation, reusable components, and modern UI design.",
+    tech: ["React Native", "Expo", "JavaScript", "Mobile UI/UX"],
     icon: "📱",
   },
   {
-    id: 4,
+    id: 3,
     title: "UI Design & Form Validation",
     description:
-      "Designed responsive UI components and implemented secure form validation using Formik and Yup to ensure smooth user interaction.",
+      "I design responsive and visually appealing UI components and implement secure form validation to ensure smooth and reliable user interactions.",
     tech: ["Tailwind CSS", "Formik", "Yup"],
     icon: "🎨",
   },
   {
-    id: 5,
+    id: 4,
     title: "Performance & User Experience",
     description:
-      "Focused on optimizing UI performance, fixing layout issues, and ensuring cross-browser compatibility for better user experience.",
-    tech: ["UI Testing", "Bug Fixing", "Optimization"],
+      "Focused on optimizing application performance, fixing layout issues, and ensuring cross-browser and cross-device compatibility for a better user experience.",
+    tech: ["UI Optimization", "Bug Fixing", "Responsive Design"],
     icon: "🚀",
   },
   {
-    id: 6,
+    id: 5,
     title: "JavaScript Applications",
     description:
-      "Developed interactive and dynamic web applications using modern JavaScript concepts and component-based architecture.",
+      "Develop interactive and dynamic applications using modern JavaScript concepts and component-based architecture for scalable solutions.",
     tech: ["JavaScript", "React.js", "Next.js"],
     icon: "⚡",
   },

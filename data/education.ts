@@ -2,7 +2,7 @@ export const education = [
   {
     id: 1,
     degree: "B.Tech",
-    field: "Computer Science and Engineering",
+    field: "Computer Science",
     institution: "Graphic Era Hill University, Dehradun",
     duration: "2022 – 2025",
     description:

@@ -7,7 +7,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="w-full py-20 relative font-serif max-w-7xl mx-auto px-3 lg:px-10 "
+      className="w-full py-20 relative font-serif max-w-9xl mx-auto px-3 lg:px-10 "
     >
       {/* Header */}
       <motion.div
@@ -29,7 +29,8 @@ export default function Services() {
       </motion.div>
 
       {/* Services Grid */}
-      <div className="grid md:grid-cols-3 gap-8 ">
+      <div className="flex flex-wrap justify-center gap-8">
+
         {services.map((service, index) => (
           <motion.div
             key={service.id}
@@ -37,7 +38,7 @@ export default function Services() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
             viewport={{ once: true }}
-            className="bg-gradient-to-br from-gray-900 to-black rounded-4xl p-6 shadow-lg shadow-gray-300 hover:shadow-2xl hover:shadow-black/50 transition-all duration-300"
+            className="w-full max-w-sm bg-gradient-to-br from-gray-900 to-black rounded-4xl p-6 shadow-lg shadow-gray-300 hover:shadow-2xl hover:shadow-black/50 transition-all duration-300"
           >
             {/* Icon */}
             <div className="text-4xl mb-4">{service.icon}</div>

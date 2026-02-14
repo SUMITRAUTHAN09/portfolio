@@ -18,7 +18,7 @@ export default function Projects() {
       >
         <SumnexTechMarquee />
       </motion.div>
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-3  gap-8">
         {projects.map((project) => (
           <div
             key={project.id}
@@ -27,7 +27,7 @@ export default function Projects() {
             {/* Project Image */}
             <div className="relative w-full h-48">
               {/* DARK OVERLAY */}
-              <div className="absolute inset-0 bg-black/60 z-[1]" />
+              <div className="absolute inset-0 bg-black/40 z-[1]" />
               <Image
                 src={project.image}
                 alt={project.name}

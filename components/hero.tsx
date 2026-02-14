@@ -21,7 +21,7 @@ export default function Hero() {
   useEffect(() => {
     const wordInterval = setInterval(() => {
       setCurrentWord((prev) => (prev + 1) % devWords.length);
-    }, 3000);
+    }, 2000);
     return () => clearInterval(wordInterval);
   }, []);
 

@@ -2,7 +2,7 @@ import Slider from "../BgImageSlider";
 
 export default function Div3() {
   return (
-    <div className="relative h-full w-full min-h-[140px] sm:min-h-[180px] lg:min-h-[300px] p-2 sm:p-3 md:p-4 lg:p-6 flex flex-col justify-center overflow-hidden rounded-lg shadow-2xl shadow-green-400">
+    <div className="relative h-full w-full min-h-[100px] sm:min-h-[100px] lg:min-h-[300px] p-1 sm:p-3 md:p-4 lg:p-6 flex flex-col justify-center overflow-hidden rounded-lg shadow-2xl shadow-green-400">
 
       {/* BACKGROUND SLIDER */}
       <Slider startIndex={4} delay={3500} />
@@ -22,7 +22,7 @@ export default function Div3() {
           <li>• Mobile App Development (React Native)</li>
           <li>• React Native CLI & Expo CLI Projects</li>
           <li>• Responsive UI Design & Form Validation</li>
-          <li>• Performance Optimization & Cross-Browser Compatibility</li>
+          <li>•Performance Optimization & Cross-Browser Compatibility</li>
         </ul>
       </div>
     </div>
