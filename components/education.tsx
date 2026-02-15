@@ -3,7 +3,7 @@ import { education } from "@/data/education";
 const Education = () => {
   return (
     <section className="w-full max-w-7xl mx-auto px-2 lg:px-10 font-serif md:mt-20">
-      <h2 className="text-4xl font-bold text-center mb-8 bg-black/50">
+      <h2 className="text-4xl font-bold text-center mb-8 ">
         My Education
       </h2>
 
@@ -11,7 +11,7 @@ const Education = () => {
         {education.map((item) => (
           <div
             key={item.id}
-            className="bg-black/80 shadow-md rounded-xl p-6 hover:shadow-2xl transition duration-300 shadow  shadow-white rounded-4xl"
+            className="bg-black/30 shadow-md rounded-xl p-6 hover:shadow-2xl transition duration-300 shadow  shadow-white rounded-4xl"
           >
             <h3 className="text-xl font-semibold mb-2">
               {item.degree}

@@ -11,7 +11,7 @@ export default function Div2() {
       <div className="absolute inset-0 bg-black/60 z-[1]" />
 
       {/* CONTENT */}
-      <div className="relative z-10 text-white">
+      <div className="relative z-10 text-white text-justify">
         <h2 className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-semibold mb-2">
           Technical Skills
         </h2>

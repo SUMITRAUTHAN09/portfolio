@@ -8,7 +8,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="w-full md:px-10 bg-black text-white shadow-lg shadow-gray-200">
+    <header className="w-full md:px-10 bg-gray-800 text-white shadow-md shadow-gray-500">
       <div className="flex h-16 items-center justify-between px-6 font-serif">
         {/* Logo */}
         <h1 className="md:text-2xl text-md font-bold cursor-pointer hover:text-red-700">

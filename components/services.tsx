@@ -20,7 +20,7 @@ export default function Services() {
         <h1 className="text-5xl font-bold text-white mb-4">What I Offer
 </h1>
 
-        <p className="text-gray-300 max-w-3xl mx-auto leading-relaxed text-justify bg-black/50">
+        <p className="text-gray-300 max-w-3xl mx-auto leading-relaxed text-justify">
           I provide modern web and mobile application development services using
           React.js, Next.js, and React Native. I focus on building responsive,
           user-friendly, and high-performance digital solutions with clean
@@ -49,7 +49,7 @@ export default function Services() {
             </h3>
 
             {/* Description */}
-            <p className="text-gray-400 text-sm leading-relaxed mb-4">
+            <p className="text-gray-400 text-sm leading-relaxed mb-4 text-justify">
               {service.description}
             </p>
 
@@ -58,9 +58,9 @@ export default function Services() {
               {service.tech.map((tech, i) => (
                 <span
                   key={i}
-                  className="text-xs bg-gray-200 text-gray-700 px-3 py-1 rounded-full shadow shadow-md shadow-blue-600"
+                  className="text-xs bg-gray-400 text-gray-900 px-3 py-1 rounded-full shadow shadow-md shadow-blue-600"
                 >
-                  {tech}
+                 <strong> {tech}</strong>
                 </span>
               ))}
             </div>

@@ -48,7 +48,7 @@ export default function About() {
               About Me
             </h1>
 
-            <div className="space-y-6 bg-black/90">
+            <div className="space-y-6 ">
               {aboutParagraphs.map((text, index) => (
                 <p
                   key={index}

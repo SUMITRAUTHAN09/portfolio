@@ -12,11 +12,11 @@ export default function Div3() {
 
       {/* CONTENT */}
       <div className="relative z-10 text-white">
-        <h2 className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-2xl font-semibold mb-1 sm:mb-2 md:mb-3 lg:mb-4">
+        <h2 className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-2xl font-semibold mb-1">
           Specialize
         </h2>
 
-        <ul className="space-y-0.5 sm:space-y-1 md:space-y-2 text-[10px] sm:text-xs md:text-sm">
+        <ul className="space-y-0.5 sm:space-y-1 md:space-y-2 text-[10px] sm:text-xs md:text-sm ">
           <li>• Frontend Web Development</li>
           <li>• React.js & Next.js Applications</li>
           <li>• Mobile App Development (React Native)</li>

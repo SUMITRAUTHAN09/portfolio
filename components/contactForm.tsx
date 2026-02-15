@@ -161,8 +161,8 @@ export default function ContactForm() {
         viewport={{ once: true }}
         className="text-center mb-16"
       >
-        <h1 className="text-5xl font-bold mb-4 bg-black/50">Contact Me</h1>
-        <p className="text-gray-300 max-w-3xl mx-auto leading-relaxed text-justify bg-black/60">
+        <h1 className="text-5xl font-bold mb-4">Contact Me</h1>
+        <p className="text-gray-300 max-w-3xl mx-auto leading-relaxed text-justify ">
           Starting my career as a Frontend and App Developer, I am looking for an organization where I can apply my skills, continue learning, and grow as a developer while contributing to real-world projects
         </p>
       </motion.div>
@@ -189,7 +189,7 @@ export default function ContactForm() {
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
-        className="rounded-4xl p-8 shadow-md shadow-blue-500 space-y-6 bg-black/30 max-w-4xl mx-auto"
+        className="rounded-4xl p-8 shadow-md shadow-blue-500 space-y-6 max-w-4xl mx-auto"
       >
         {/* Name */}
         <div>

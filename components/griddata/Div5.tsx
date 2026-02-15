@@ -16,7 +16,7 @@ export default function Div5() {
           My Development Approach
         </h2>
     
-        <p className="text-[10px] sm:text-xs md:text-sm leading-relaxed">
+        <p className="text-[10px] sm:text-xs md:text-sm leading-relaxed text-justify">
           I focus on building responsive and user-friendly web and mobile applications.
           I use modern technologies like React.js, Next.js, and React Native to create
           clean, scalable, and high-performance digital solutions. My goal is to design

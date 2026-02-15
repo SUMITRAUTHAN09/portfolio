@@ -38,11 +38,11 @@ export default function Projects() {
 
             {/* Project Content */}
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-100 bg-white/2 mb-2">
+              <h3 className="text-xl font-semibold text-gray-100 mb-2">
                 {project.name}
               </h3>
 
-              <p className="text-gray-400 text-sm mb-4 bg-black/50">
+              <p className="text-gray-400 text-sm mb-4 text-justify">
                 {project.description}
               </p>
 
@@ -51,7 +51,7 @@ export default function Projects() {
                 {project.tech.map((tech, index) => (
                   <span
                     key={index}
-                    className="text-xs bg-gray-200 text-gray-700 px-2 py-1  shadow shadow-md shadow-blue-900 rounded-full hover:bg-black hover:text-white cursor-pointer"
+                    className="text-xs bg-gray-400 text-gray-900 px-2 py-1  shadow shadow-md shadow-blue-900 rounded-full hover:bg-black hover:text-white cursor-pointer"
                   >
                    <strong>{tech}</strong>
                   </span>

@@ -30,6 +30,7 @@ const CODE_SNIPPETS = [
   "import","export","from",
   "1","0","1","0","1","0", // extra weight to binary
   "101","010","110","001",
+  "S","U","M","I","R","A","T","H","A","N",
 ];
 
 export default function BackgroundCodeParticles() {
@@ -39,12 +40,18 @@ export default function BackgroundCodeParticles() {
   useEffect(() => {
     setMounted(true);
 
-    const colors = [
+{/*    const colors = [
       `rgba(0, 255, 80, opacity)`,
       `rgba(0, 200, 255, opacity)`,
       `rgba(255, 255, 255, opacity)`,
-      `rgba(120, 255, 120, opacity)`,
-    ];
+      `rgba(225, 0, 0, opacity)`,
+    ]; */}
+    const colors = [
+  `rgba(34, 197, 94, opacity)`,    // Green (modern emerald)
+  `rgba(59, 130, 246, opacity)`,   // Blue (professional tech blue)
+  `rgba(255, 255, 255, opacity)`,  // White
+  `rgba(239, 68, 68, opacity)`,    // Red (clean soft red)
+];
 
     const count = 55;
 

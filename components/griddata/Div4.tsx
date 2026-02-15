@@ -16,7 +16,7 @@ export default function Div4() {
           Experience
         </h2>
 
-        <p className="text-[10px] sm:text-xs md:text-sm leading-relaxed">
+        <p className="text-[10px] sm:text-xs md:text-sm leading-relaxed text-justify">
          Frontend and React Native Developer building responsive web and mobile applications using React.js, Next.js, React Native CLI, and Expo CLI.
         </p>
       </div>

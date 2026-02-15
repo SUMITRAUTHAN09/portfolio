@@ -65,7 +65,7 @@ export default function Div1() {
           <span className="animate-pulse">|</span>
         </p>
 
-        <p className="text-sm leading-relaxed mt-12">
+        <p className="text-sm leading-relaxed mt-12 text-justify">
          Frontend and App Developer focused on building responsive, high-performance web and mobile applications with clean design and seamless user experience.
         </p>
       </div>

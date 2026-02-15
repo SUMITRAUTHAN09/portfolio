@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen w-full bg-gray-300 dark:bg-black overflow-x-hidden">
+    <main className="relative min-h-screen w-full bg-white/10 overflow-x-hidden">
 
       {/* BACKGROUND – slow fade */}
       <motion.div
