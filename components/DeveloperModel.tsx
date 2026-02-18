@@ -23,7 +23,7 @@ function Model() {
   modelRef.current.rotation.x += (-y * 0.1 - modelRef.current.rotation.x) * 0.02;
 });
 
-  return <primitive ref={modelRef} object={scene} scale={1.50} />;
+  return <primitive ref={modelRef} object={scene} scale={1.25} />;
 }
 
 export default function DeveloperModel() {

@@ -32,7 +32,7 @@ export default function Hero() {
     >
       <div className="w-full max-w-7xl mx-auto lg:px-10 grid md:grid-cols-1 lg:grid-cols-10 gap-4 min-h-[500px] lg:min-h-[560px] xl:min-h-[600px] bg-black/50 2xl:min-h-[640px] rounded-4xl shadow-md shadow-blue-500">
         {/* LEFT SECTION */}
-        <div className="lg:col-span-6 rounded-4xl flex items-center p-6 sm:p-10 lg:p-16 ">
+        <div className="lg:col-span-7 rounded-4xl flex items-center p-6 sm:p-10 lg:p-16 ">
           <div className="max-w-3xl">
              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-blue-500 mb-4">
               Hi, I'm Sumit Rauthan
@@ -62,12 +62,7 @@ export default function Hero() {
             </div>
 
             <p className="text-base sm:text-lg lg:text-xl text-gray-400 mb-6 leading-relaxed text-justify">
-              Motivated Computer Science graduate with practical experience in
-              Front-End development. I am skilled at building responsive and
-              user-friendly web interfaces using modern technologies. I am
-              looking for a Front-End Developer position where I can use my
-              skills, keep learning, and help create high-quality user
-              experiences.
+              Motivated Computer Science graduate with practical experience in Front-End Development and App Development. I am skilled at building responsive and user-friendly web and mobile applications using modern technologies. I enjoy creating clean, efficient, and interactive user interfaces. I am looking for a Front-End or App Developer position where I can apply my skills, continue learning new technologies, and contribute to building high-quality user experiences.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3">
@@ -106,7 +101,7 @@ export default function Hero() {
         </div>
 
         {/* RIGHT SECTION */}
-        <div className="lg:col-span-4 rounded-4xl shadow-lg relative overflow-hidden min-h-[350px]">
+        <div className="lg:col-span-3 rounded-4xl shadow-lg relative overflow-hidden min-h-[350px]">
           <div className="absolute inset-0" />
           <DeveloperModel />
         </div>
