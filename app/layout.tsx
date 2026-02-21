@@ -13,8 +13,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sumit Rauthan",
-  description: "Generated My portfolio",
+  title: "Sumit Rauthan | Frontend & Mobile App Developer",
+  description:
+    "Portfolio of Sumit Rauthan - Frontend & Mobile App Developer specializing in React.js, Next.js, Tailwind CSS, and React Native. Explore projects, skills, and experience.",
+  keywords: [
+    "Sumit Rauthan",
+    "Frontend Developer",
+    "React Developer",
+    "Next.js Developer",
+    "React Native Developer",
+    "Portfolio Website",
+  ],
+  authors: [{ name: "Sumit Rauthan" }],
+  creator: "Sumit Rauthan",
+
+  openGraph: {
+    title: "Sumit Rauthan | Frontend & Mobile App Developer",
+    description:
+      "Frontend & Mobile App Developer skilled in React.js, Next.js, Tailwind CSS, and React Native.",
+    url: "https://sumitrauthan.site",
+    siteName: "Sumit Rauthan Portfolio",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
