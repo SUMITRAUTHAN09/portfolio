@@ -62,6 +62,7 @@ export default function About() {
           <div className="w-full justify-center align-center ">
           <SumnexTechMarquee />
         </div>
+
         </div>
       </section>
       <Footer />
