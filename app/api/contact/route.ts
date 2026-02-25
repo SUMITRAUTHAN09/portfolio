@@ -45,9 +45,9 @@ function validateMessage(message: string): string | null {
 
 function validateInquiryType(inquiryType: string): string | null {
   const validTypes = [
-    "General Inquiry",
-    "Interested in Website",
-    "Project Idea / Requirement"
+    "Job Opportunity",
+    "Requirement/ interview",
+    "Interested in My portfolio",
   ];
   if (!inquiryType || !validTypes.includes(inquiryType)) {
     return "Invalid inquiry type";
