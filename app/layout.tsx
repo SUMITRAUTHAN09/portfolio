@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sumit Rauthan | Frontend & Mobile App Developer",
+  title: "Sumit Rauthan | Web Developer & Mobile App Developer",
   description:
-    "Portfolio of Sumit Rauthan - Frontend & Mobile App Developer specializing in React.js, Next.js, Tailwind CSS, and React Native. Explore projects, skills, and experience.",
+    "Portfolio of Sumit Rauthan - Web Developer & Mobile App Developer specializing in React.js, Next.js, Tailwind CSS, and React Native. Explore projects, skills, and experience.",
   keywords: [
     "Sumit Rauthan",
     "Frontend Developer",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sumit Rauthan | Frontend & Mobile App Developer",
     description:
-      "Frontend & Mobile App Developer skilled in React.js, Next.js, Tailwind CSS, and React Native.",
+      "Web Developer & Mobile App Developer skilled in React.js, Next.js, Tailwind CSS, and React Native.",
     url: "https://sumitrauthan.site",
     siteName: "Sumit Rauthan Portfolio",
     type: "website",
