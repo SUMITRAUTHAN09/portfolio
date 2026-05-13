@@ -40,6 +40,14 @@ export const projects = [
     tech: ["Next.js", "React.js", "JavaScript", "Tailwind CSS", "ShadCN UI"],
   },
   {
+  id: 11,
+  name: "Mehkao Business Website",
+  description:
+    "A modern business and product showcase website developed using Next.js and Tailwind CSS. Built responsive layouts, reusable UI components, product display sections, and interactive pages to create a clean and professional digital presence for the brand.",
+  image: "/projects/mehkao.png",
+  tech: ["Next.js", "React.js", "JavaScript", "Tailwind CSS", "ShadCN UI"],
+},
+  {
     id: 4,
     name: "StoreApp (Mobile Application)",
     description:
