@@ -23,14 +23,22 @@ export const projects = [
     image: "/projects/homeStay.png",
     tech: ["Next.js", "React.js", "Tailwind CSS", "ShadCN UI"],
   },
-   {
-  id: 10,
-  name: "Semi E-commerce Website",
-  description:
-    "A modern semi e-commerce business website built using Next.js, Tailwind CSS, and ShadCN UI. Developed responsive product showcase pages and clean UI components to help modernize the business and efficiently display leather products for customers.",
-  image: "/projects/chauhanLearthers.png",
-  tech: ["Next.js", "React.js", "Tailwind CSS", "ShadCN UI"],
-},
+  {
+    id: 10,
+    name: "Semi E-commerce Website",
+    description:
+      "A modern semi e-commerce business website built using Next.js, Tailwind CSS, and ShadCN UI. Developed responsive product showcase pages and clean UI components to help modernize the business and efficiently display leather products for customers.",
+    image: "/projects/chauhanLearthers.png",
+    tech: ["Next.js", "React.js", "Tailwind CSS", "ShadCN UI"],
+  },
+  {
+    id: 6,
+    name: "Blessing Farms Website",
+    description:
+      "A modern agriculture and organic farming business website built using Next.js and Tailwind CSS. Developed responsive UI components, product showcase sections, contact forms, and smooth navigation to provide an engaging and professional online presence for Blessing Farms.",
+    image: "/projects/blessingFarms.png",
+    tech: ["Next.js", "React.js", "JavaScript", "Tailwind CSS", "ShadCN UI"],
+  },
   {
     id: 4,
     name: "StoreApp (Mobile Application)",
@@ -47,6 +55,7 @@ export const projects = [
     image: "/projects/socialMedia.png",
     tech: ["React Native", "Expo CLI", "JavaScript"],
   },
+  
   {
     id: 7,
     name: "Random Password Generator",
@@ -71,6 +80,4 @@ export const projects = [
     image: "/projects/ImageEncryption.png",
     tech: ["Java"],
   },
- 
-
 ];
