@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     "Next.js Developer",
     "React Native Developer",
     "Portfolio Website",
+    "Sumit",
+    "sumit",
+
   ],
   authors: [{ name: "Sumit Rauthan" }],
   creator: "Sumit Rauthan",
