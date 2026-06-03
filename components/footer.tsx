@@ -56,7 +56,7 @@ export default function Footer() {
               </a>
               {/* Email */}
               <a
-                href="mailto:rauthansumit413@gmail.com"
+                href="mailto:sumitrauhtan413@gmail.com"
                 aria-label="Email"
                 className="text-gray-400 hover:text-red-400 transition-all duration-300 hover:scale-110"
               >
@@ -121,7 +121,7 @@ export default function Footer() {
 
             {/* Email SVG */}
             <a
-              href="mailto:rauthansumit413@gmail.com"
+              href="mailto:sumitrauhtan413@gmail.com"
               aria-label="Email"
               className="flex items-center gap-3 text-gray-400 text-sm hover:text-white transition-colors text-gray-400 hover:text-red-400 transition-all duration-300 hover:scale-110"
             >
@@ -139,7 +139,7 @@ export default function Footer() {
                     d="M3 8l9 6 9-6M5 6h14a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2z"
                   />
                 </svg>
-                <span>rauthansumit413@gmail.com</span>
+                <span>sumitrauhtan413@gmail.com</span>
               </div>
             </a>
             <a

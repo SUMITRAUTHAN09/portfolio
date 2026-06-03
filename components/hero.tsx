@@ -34,7 +34,7 @@ export default function Hero() {
         {/* LEFT SECTION */}
         <div className="lg:col-span-7 rounded-4xl flex items-center p-6 sm:p-10 lg:p-16 ">
           <div className="max-w-3xl">
-             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-blue-500 mb-4">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-blue-500 mb-4">
               Hi, I'm Sumit Rauthan
             </h1>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4">
@@ -60,9 +60,19 @@ export default function Hero() {
                 </h2>
               ))}
             </div>
-
+            <h2 className="text-base sm:text-lg lg:text-xl text-white mb-6 leading-relaxed text-justify">
+              Open for Full-Time Opportunities
+            </h2>
             <p className="text-base sm:text-lg lg:text-xl text-gray-400 mb-6 leading-relaxed text-justify">
-              Motivated Computer Science graduate with practical experience in Front-End Development and App Development. I am skilled at building responsive and user-friendly web and mobile applications using modern technologies. I enjoy creating clean, efficient, and interactive user interfaces. I am looking for a Front-End or App Developer position where I can apply my skills, continue learning new technologies, and contribute to building high-quality user experiences.
+              I am a Full Stack Developer with hands-on experience in developing
+              responsive and scalable web applications using Next.js, React.js,
+              Express.js, MongoDB, and REST APIs. I have worked on real-world
+              projects including booking platforms, AI chatbots, business
+              websites, e-commerce platforms, and room rental systems.
+              Currently, I am working as a Full Stack Web Developer Intern at
+              Animart Enterprises, where I contribute to frontend and backend
+              development, API integration, database management, and performance
+              optimization.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3">
@@ -85,11 +95,11 @@ export default function Hero() {
             {/* Stats */}
             <div className="mt-8 flex gap-8">
               <div>
-                <p className="text-2xl font-bold text-blue-700">5+</p>
+                <p className="text-2xl font-bold text-blue-700">10+</p>
                 <p className="text-xs text-gray-300">Projects Developed</p>
               </div>
               <div>
-                <p className="text-2xl font-bold text-blue-700">6+</p>
+                <p className="text-2xl font-bold text-blue-700">12+</p>
                 <p className="text-xs text-gray-300">Months Experience</p>
               </div>
               <div>
